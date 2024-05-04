@@ -3,6 +3,8 @@ return {
   opts = {
     ensure_installed = {
       "clangd",
+      "gopls",
+      "rust-analyzer",
     },
   },
 }
