@@ -5,6 +5,7 @@ return {
       "clangd",
       "gopls",
       "rust-analyzer",
+      "json-lsp",
     },
   },
 }
