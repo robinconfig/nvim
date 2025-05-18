@@ -28,6 +28,7 @@ if current_config == "openeyes" then
 	spec "openeyes.orgmode"
 
 	--- 增强小工具 ----
+	spec "openeyes.terminal"
 	spec "openeyes.message-buffer"
 	spec "openeyes.luapad"
 
