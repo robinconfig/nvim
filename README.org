@@ -7,6 +7,7 @@ Windows: %HOME%\AppData\Local\nvim\init.lua
 - git
 - 图标字体, en: Non-ASCII Font(暂时尝试hack-nerd-font)
 - ripgrep Rust写的文本搜索工具, 主流非主流操作系统全覆盖. Github:https://github.com/BurntSushi/ripgrep
+- 前置工具: luarocks(一个lua包管理工具)
 
 ** 基础选项配置
 行显示
@@ -25,7 +26,8 @@ Windows: %HOME%\AppData\Local\nvim\init.lua
 ** 快捷输入
 *** Abbreviation
 
+** 工作区记忆/AutoSession.
+
 ** org mode
-前置工具: luarocks
 
 ** TODO
