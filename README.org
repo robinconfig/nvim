@@ -1,0 +1,31 @@
+* My NeoVim Configuration
+
+配置文件入口:
+Linux/MacOS: ~/.config/nvim/init.lua
+Windows: %HOME%\AppData\Local\nvim\init.lua
+** 前置软件/工具
+- git
+- 图标字体, en: Non-ASCII Font(暂时尝试hack-nerd-font)
+- ripgrep Rust写的文本搜索工具, 主流非主流操作系统全覆盖. Github:https://github.com/BurntSushi/ripgrep
+
+** 基础选项配置
+行显示
+
+** 快捷键配置
+1. 通过操作系统默认文件管理器打开当前文件所在目录
+   Linux
+   安装了xfce4, 可通过终端使用`exo-open %:p:h`
+   MacOS
+   终端命令: open %:p:h
+   
+** 插件系统
+
+** 目录结构
+
+** 快捷输入
+*** Abbreviation
+
+** org mode
+前置工具: luarocks
+
+** TODO
