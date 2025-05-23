@@ -44,5 +44,5 @@ require("lazy").setup({
 })
 
 
--- OpenEyes.log.info("hello, Robin")
--- OpenEyes.log.error("hello, Robin")
+OpenEyes.log.info("hello, Robin")
+OpenEyes.log.error("hello, Robin")

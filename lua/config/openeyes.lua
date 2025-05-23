@@ -1,13 +1,13 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
-local log = require('internal.log')
+local log_module = require('internal.log')
 
 local M = {
 	theme = "dawnfox",
 	thememode = "light",
 	debugmode = false,
-	log = log,
+	log = log_module,
 }
 
 _G.OpenEyes = M
