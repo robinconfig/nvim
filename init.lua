@@ -1,37 +1,17 @@
-local current_config = "openeyes" -- openeyes or simple
+--- 入口配置代码尽可能简短, 方便注释掉以便测试临时代码.
+vim.log.levels = {
+	TRACE = 0,
+	DEBUG = 1,
+	INFO = 2,
+	WARN = 3,
+	ERROR = 4,
+	OFF = 5,
+}
+require("config")
+require("config.lazy")
+Log = require("internal.log")
 
-require("common.basic")
-require("common.user-command")
-require("common.keymap")
-
-if current_config == "openeyes" then
-	require("openeyes.launch")
-
-	--- better ui ---
-	spec "openeyes.colorscheme" --- 主题
-	spec "openeyes.lualine"    --- 状态栏
-
-	---- keymap enhance ----
-	spec "openeyes.whichkey"
-
-	---- file ----
-	spec "openeyes.file-manage"
-
-	---- better edit ----
-	spec "openeyes.autopairs"
-
-	---- program ----
-	spec "openeyes.tree-sitter"
-	spec "openeyes.comment"
-	spec "openeyes.lsp"
-	spec "openeyes.completion"
-	spec "openeyes.orgmode"
-
-	--- 增强小工具 ----
-	spec "openeyes.terminal"
-	spec "openeyes.message-buffer"
-	spec "openeyes.luapad"
-
-	require("openeyes.lazy")
-elseif current_config == "simple" then
-end
+require("config.options")
+require("config.usercommand")
+require("config.keymap")
+require("config.autocmd")

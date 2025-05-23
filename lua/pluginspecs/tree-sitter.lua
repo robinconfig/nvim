@@ -1,3 +1,5 @@
+--- 语法高亮
+
 local M = {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",

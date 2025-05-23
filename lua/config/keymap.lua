@@ -1,6 +1,3 @@
-vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
-
 local opts = { noremap = true, silent = true }
 
 -- 打开配置目录

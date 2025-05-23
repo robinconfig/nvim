@@ -3,6 +3,22 @@
 配置文件入口:
 Linux/MacOS: ~/.config/nvim/init.lua
 Windows: %HOME%\AppData\Local\nvim\init.lua
+
+** 彻底清理nvim配置文件(reset vim to default)
+- Unix-like System:
+#+begin_src bash
+rm -rf ~/.config/nvim/
+rm -rf ~/.local/share/nvim/
+rm -rf ~/.local/state/nvim/
+rm -rf ~/.cache/nvim/
+#+end_src
+
+- Windows:
+#+begin_src
+rm -rf %HOME%\AppData\Local\nvim\
+rm -rf %HOME%\AppData\Local\nvim-data\
+#+end_src
+
 ** 前置软件/工具
 - git
 - 图标字体, en: Non-ASCII Font(暂时尝试hack-nerd-font)
@@ -22,12 +38,28 @@ Windows: %HOME%\AppData\Local\nvim\init.lua
 ** 插件系统
 
 ** 目录结构
+使用nvim-tree
 
 ** 快捷输入
 *** Abbreviation
 
-** 工作区记忆/AutoSession.
+** 项目增强配置
+*** 版本管理
+*** 工作区记忆/AutoSession.
+*** 书签/使用过的项目列表
+
+
+** 编程增强配置
+*** 大纲
+*** autopair
+*** 对齐竖线
+*** 代码折叠
+*** lsp
+*** tree-sitter
+
 
 ** org mode
+
+** 
 
 ** TODO

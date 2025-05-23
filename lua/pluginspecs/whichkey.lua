@@ -48,7 +48,7 @@ function M.config()
 			},
 		},
 		win = {
-			padding = { 2, 2, 2, 2 },
+			padding = { 1, 1, 1, 1 },
 			border = "rounded",
 		},
 		-- ignore_missing = true,

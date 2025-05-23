@@ -1,1 +1,0 @@
--- vim.keymap.set("n", "<C-A-l>", "<cmd>lua vim.lsp.buf.formatting()<CR>")
