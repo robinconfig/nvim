@@ -25,8 +25,6 @@ for k, v in pairs(options) do
 	vim.opt[k] = v
 end
 
-vim.log.levels = vim.log.levels.DEBUG
-
 -- vim.b.fileencoding = "utf-8"
 
 -- disable netrw at the very start of your init.lua
