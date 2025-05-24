@@ -1,4 +1,4 @@
--- log.lua
+-- copy from https://github.com/nvim-lua/plenary.nvim/blob/master/lua/plenary/log.lua
 -- Does only support logging source files.
 --
 -- Inspired by rxi/log.lua

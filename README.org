@@ -56,6 +56,14 @@ rm -rf %HOME%\AppData\Local\nvim-data\
 *** 代码折叠
 *** lsp
 *** tree-sitter
+*** 高亮选中变量
+目前有以下几种方式可以实现此功能:
+1. 内置: *, 通过n, N在选中word上下移动
+2. lsp. vim.lsp.buf.document_highlight()高亮, vim.lsp.buf.clear_references()取消高亮
+3. 使用 illuminate.nvim 插件（基于 Treesitter 或 LSP）
+目前方案: 使用lsp+treesitter配合来实现.
+
+*** 代码块竖线显示
 
 
 ** org mode

@@ -32,7 +32,10 @@ function M.config(_, opts)
 	local treesitter_config = require("nvim-treesitter.configs")
 	treesitter_config.setup({
 		ensure_installed = opts.ensure_installed,
-		highlight = { enable = true },
+		highlight = {
+			enable = true,
+			additional_vim_regex_highlighting = false,
+		},
 		indent = { enable = true },
 		autopairs = { eable = true },
 	})

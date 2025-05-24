@@ -19,6 +19,7 @@ local options = {
 	encoding = "utf-8",
 	fileencoding = "utf-8",
 	-- termencoding = "utf-8",
+	updatetime = 300,			-- swap file写入间隔,以及CursorHold时间触发间隔, gpt建议设置在: 100~500ms.
 }
 
 for k, v in pairs(options) do

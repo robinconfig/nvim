@@ -2,6 +2,8 @@
 require("config.openeyes")
 require("config.lazy")
 
+require("internal.plog")
+
 require("config.options")
 require("config.usercommand")
 require("config.keymap")
