@@ -6,16 +6,22 @@ local M = {
 		lazy = false,
 		priority = 1000,
 	},
-	--- https://github.com/rose-pine/neovim
-	{
-		"rose-pine/neovim",
-		name = "rose-pine",
-		priority = 1000,
-	},
 	--- https://github.com/catppuccin/nvim
 	{
 		"catppuccin/nvim",
 		name = "catppuccin",
+		priority = 1000,
+	},
+	-- tokyonight
+	{
+		"folke/tokyonight.nvim",
+		lazy = false,
+		opts = { style = "moon" },
+	},
+	--- https://github.com/rose-pine/neovim
+	{
+		"rose-pine/neovim",
+		name = "rose-pine",
 		priority = 1000,
 	},
 	--- https://github.com/sainnhe/edge

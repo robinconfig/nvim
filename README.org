@@ -52,7 +52,10 @@ rm -rf %HOME%\AppData\Local\nvim-data\
 ** 编程增强配置
 *** 大纲
 *** autopair
+使用'windwp/nvim-autopairs'插件
 *** 对齐竖线
+目前采用Snacks.nvim的indent配置
+
 *** 代码折叠
 *** lsp
 *** tree-sitter
@@ -62,8 +65,6 @@ rm -rf %HOME%\AppData\Local\nvim-data\
 2. lsp. vim.lsp.buf.document_highlight()高亮, vim.lsp.buf.clear_references()取消高亮
 3. 使用 illuminate.nvim 插件（基于 Treesitter 或 LSP）
 目前方案: 使用lsp+treesitter配合来实现.
-
-*** 代码块竖线显示
 
 
 ** org mode
