@@ -5,7 +5,7 @@ local log_module = require('internal.log')
 
 local M = {
 	-- theme = "dawnfox",
-	theme = "ef-cyprus",
+	theme = "ef-elea-light",
 	thememode = "light", -- dark or light
 	debugmode = false,
 	log = log_module,
