@@ -1,4 +1,10 @@
 local M = {
+	--- https://github.com/oonamo/ef-themes.nvim
+	{
+		"oonamo/ef-themes.nvim",
+		name = "ef-themes",
+		priority = 1000,
+	},
 	--- https://github.com/EdenEast/nightfox.nvim
 	{
 		"EdenEast/nightfox.nvim",

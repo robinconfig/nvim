@@ -1,3 +1,5 @@
+-- doc: https://github.com/folke/snacks.nvim/blob/main/docs/indent.md
+
 return {
 	"folke/snacks.nvim",
 	priority = 1000,
